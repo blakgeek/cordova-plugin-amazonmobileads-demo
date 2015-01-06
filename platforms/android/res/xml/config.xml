@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.blakgeek.plugin.amazonads.example" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="AmazonMobileAdsPlugin">
+        <param name="android-package" value="com.blakgeek.cordova.plugin.amazonmobileads.AmazonMobileAdsPlugin" />
+    </feature>
+    <name>AmazonMobileAdsDemo</name>
+    <description>
+        A demo app for the Amazon Mobile Ads plugin for Cordova.
+    </description>
+    <author email="blakgeek@gmail.com" href="http://github.io/blakgeek">
+        Carlos "blakgeek" Lawton
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

@@ -1,0 +1,22 @@
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes.dex : \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/amazonmobileads/AmazonMobileAdsPlugin$1.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/amazonmobileads/AmazonMobileAdsPlugin$2.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/amazonmobileads/AmazonMobileAdsPlugin$3.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/amazonmobileads/AmazonMobileAdsPlugin$4.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/cordova/plugin/amazonmobileads/AmazonMobileAdsPlugin.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/plugin/amazonads/example/BuildConfig.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/plugin/amazonads/example/CordovaApp.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/plugin/amazonads/example/R$attr.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/plugin/amazonads/example/R$color.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/plugin/amazonads/example/R$drawable.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/plugin/amazonads/example/R$id.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/plugin/amazonads/example/R$integer.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/plugin/amazonads/example/R$string.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/plugin/amazonads/example/R$style.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/plugin/amazonads/example/R$styleable.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/plugin/amazonads/example/R$xml.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/classes/com/blakgeek/plugin/amazonads/example/R.class \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/dexedLibs/classes-86fdf4555219443f7fc23365baa75402.jar \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/dexedLibs/classes-adf7979a51dc20a6c9f9f497585b6c3b.jar \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/dexedLibs/amazon-ads-5.4.235-48099f756b6c30e646fb7cceb7caebc6.jar \
+/Users/blakgeek/IdeaProjects/cordova-plugin-amazonmobileads-example/platforms/android/ant-build/dexedLibs/google-play-services-5752bc322f51e98ed64e40ef981602c0.jar \
