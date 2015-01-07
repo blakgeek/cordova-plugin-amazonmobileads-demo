@@ -1,6 +1,6 @@
 function AmazonMobileAds() {
 
-	this.setAppKey = function(key, successCallback, failureCallback) {
+	this.init = this.setAppKey = function(key, successCallback, failureCallback) {
 		cordova.exec(successCallback, failureCallback, 'AmazonMobileAdsPlugin', 'setAppKey', [key]);
 	};
 
@@ -26,5 +26,8 @@ function AmazonMobileAds() {
 }
 
 if(typeof module !== undefined && module.exports) {
+
 	module.exports = AmazonMobileAds;
+	// identify the plugin as being smoothie compatible
+	module.exports.$mixable = true;
 }

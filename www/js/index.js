@@ -2,7 +2,7 @@ document.addEventListener('deviceready', function() {
 
     window.ama = new AmazonMobileAds;
     ama.enableLogging();
-    //ama.enableTestMode(true);
+    ama.enableTestMode(true);
     ama.setAppKey('817f9a6b6c92485a8e9774d991d28b06');
 
     var actionList = document.getElementById('actions');

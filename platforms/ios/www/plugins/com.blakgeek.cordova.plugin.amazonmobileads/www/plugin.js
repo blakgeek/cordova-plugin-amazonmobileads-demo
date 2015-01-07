@@ -1,6 +1,6 @@
 cordova.define("com.blakgeek.cordova.plugin.amazonmobileads.AmazonMobileAds", function(require, exports, module) { function AmazonMobileAds() {
 
-	this.setAppKey = function(key, successCallback, failureCallback) {
+	this.init = this.setAppKey = function(key, successCallback, failureCallback) {
 		cordova.exec(successCallback, failureCallback, 'AmazonMobileAdsPlugin', 'setAppKey', [key]);
 	};
 
@@ -26,6 +26,9 @@ cordova.define("com.blakgeek.cordova.plugin.amazonmobileads.AmazonMobileAds", fu
 }
 
 if(typeof module !== undefined && module.exports) {
+
 	module.exports = AmazonMobileAds;
+	// identify the plugin as being smoothie compatible
+	module.exports.$mixable = true;
 }
 });

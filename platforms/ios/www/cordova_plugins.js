@@ -11,7 +11,7 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "com.blakgeek.cordova.plugin.amazonmobileads": "1.0.0",
+    "com.blakgeek.cordova.plugin.amazonmobileads": "1.0.16",
     "com.google.playservices": "21.0.0"
 }
 // BOTTOM OF METADATA
