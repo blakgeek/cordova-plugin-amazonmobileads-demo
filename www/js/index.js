@@ -1,9 +1,9 @@
 document.addEventListener('deviceready', function() {
 
-    window.ama = new AmazonMobileAds;
-    ama.enableLogging();
-    ama.enableTestMode(true);
-    ama.setAppKey('817f9a6b6c92485a8e9774d991d28b06');
+    window.amazonads = new AmazonMobileAds;
+    amazonads.enableLogging();
+    amazonads.enableTestMode();
+    amazonads.init('817f9a6b6c92485a8e9774d991d28b06');
 
     var actionList = document.getElementById('actions');
 
@@ -11,22 +11,22 @@ document.addEventListener('deviceready', function() {
 
         switch(e.target.id) {
             case 'showTopBanner':
-                ama.showBannerAd(true);
+                amazonads.showBannerAd(true);
                 break;
             case 'showBottomBanner':
-                ama.showBannerAd();
+                amazonads.showBannerAd();
                 break;
             case 'hideBanner':
-                ama.hideBannerAd();
+                amazonads.hideBannerAd();
                 break;
             case 'showInterstitial':
-                ama.showInterstitialAd()
+                amazonads.showInterstitialAd();
                 break;
             case 'enableLogging':
-                ama.enableLogging();
+                amazonads.enableLogging();
                 break;
             case 'disableLogging':
-                ama.enableLogging(false);
+                amazonads.disableLogging();
                 break;
         }
 

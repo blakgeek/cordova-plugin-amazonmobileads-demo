@@ -19,9 +19,6 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
-    <feature name="AmazonMobileAdsPlugin">
-        <param name="ios-package" value="AmazonMobileAdsPlugin" />
-    </feature>
     <name>AmazonMobileAdsDemo</name>
     <description>
         A demo app for the Amazon Mobile Ads plugin for Cordova.
@@ -31,4 +28,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <feature name="AmazonMobileAdsPlugin">
+        <param name="ios-package" value="AmazonMobileAdsPlugin" />
+    </feature>
 </widget>

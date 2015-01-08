@@ -39,16 +39,16 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		3AE903ACE6F54D0DAD2AE3F1 /* AmazonMobileAdsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 622C0CEBA6FF4D2C9379A0EF /* AmazonMobileAdsPlugin.m */; };
-		DA7210EFFF2D490895B8C14E /* AmazonAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A79CA0DE1044416AA5FBD9D /* AmazonAd.framework */; };
-		9F3A7ADF428F4DA9A72CDBD4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6DAD6F6E1845BE897C3A2B /* AdSupport.framework */; };
-		D86783AC188248B0AFD7966D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EED894F442E486892AAEFB8 /* CoreLocation.framework */; };
-		F0E0AB3EC2394771B768FEC6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F5D4AD6F6344B0B11AC33D /* SystemConfiguration.framework */; };
-		64DCB8109F2F4284B98029BA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B062A13337184F718E15E569 /* CoreTelephony.framework */; };
-		4327DB674BB146AA92BA43E0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518153E34BD740E9B3DBC3FC /* MediaPlayer.framework */; };
-		1BD95CC9793F47BFAB15259E /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91D834D95C4443B9DBB8851 /* EventKit.framework */; };
-		75043FEE80E64362807DDF78 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB01A6C214345F8BFB396FA /* EventKitUI.framework */; };
-		F641FA7FEEFB457388BD5021 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6722184816BD4A5C918BD673 /* StoreKit.framework */; };
+		866DC64E000B4D1A936B9994 /* AmazonMobileAdsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A719DAC9EEFB4FF5A9883620 /* AmazonMobileAdsPlugin.m */; };
+		0D0EDD4FAA2C4236A69F9463 /* AmazonAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4093FB95044B492C96AA9C01 /* AmazonAd.framework */; };
+		C323B27B17954F19B35DF208 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD0EB21501C4BFC896232DC /* AdSupport.framework */; };
+		B5BDF0F34D6A4E2CA7D2B8A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3C89B85244447CACB1DFBA /* CoreLocation.framework */; };
+		4551F20CB6DC4BF894703988 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2539E634F64A29ACD8B11A /* SystemConfiguration.framework */; };
+		48AF6CF4C095437885F19B26 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC48F6C02DA949C580C84D09 /* CoreTelephony.framework */; };
+		3838091467EF4332AF9ADAA0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D7AE428E142DA9B789239 /* MediaPlayer.framework */; };
+		DAEE06B87FE147619381AD80 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD80346222FB4DD1B430054B /* EventKit.framework */; };
+		2FA7B5E53F7F42A0809B0CB1 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2A895F187D4AC48454E344 /* EventKitUI.framework */; };
+		66D05F3241D8425498E7E85A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6235AE5E7DA44BB3A61D8241 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,17 +114,17 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "AmazonMobileAdsDemo/config.xml"; sourceTree = "<group>"; };
-		622C0CEBA6FF4D2C9379A0EF /* AmazonMobileAdsPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AmazonMobileAdsPlugin.m"; path = "com.blakgeek.cordova.plugin.amazonmobileads/AmazonMobileAdsPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		E00ABD3B155245D896D6AA67 /* AmazonMobileAdsPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AmazonMobileAdsPlugin.h"; path = "com.blakgeek.cordova.plugin.amazonmobileads/AmazonMobileAdsPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		1A79CA0DE1044416AA5FBD9D /* AmazonAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AmazonAd.framework"; path = "AmazonMobileAdsDemo/Plugins/com.blakgeek.cordova.plugin.amazonmobileads/AmazonAd.framework"; sourceTree = "<group>"; };
-		BE6DAD6F6E1845BE897C3A2B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AdSupport.framework"; path = "System/Library/Frameworks/AdSupport.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		6EED894F442E486892AAEFB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		14F5D4AD6F6344B0B11AC33D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		B062A13337184F718E15E569 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		518153E34BD740E9B3DBC3FC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MediaPlayer.framework"; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		B91D834D95C4443B9DBB8851 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "EventKit.framework"; path = "System/Library/Frameworks/EventKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		ACB01A6C214345F8BFB396FA /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "EventKitUI.framework"; path = "System/Library/Frameworks/EventKitUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		6722184816BD4A5C918BD673 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "StoreKit.framework"; path = "System/Library/Frameworks/StoreKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		A719DAC9EEFB4FF5A9883620 /* AmazonMobileAdsPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AmazonMobileAdsPlugin.m"; path = "com.blakgeek.cordova.plugin.amazonmobileads/AmazonMobileAdsPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		1347FBEC2BCB47868F6CAA86 /* AmazonMobileAdsPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AmazonMobileAdsPlugin.h"; path = "com.blakgeek.cordova.plugin.amazonmobileads/AmazonMobileAdsPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		4093FB95044B492C96AA9C01 /* AmazonAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AmazonAd.framework"; path = "AmazonMobileAdsDemo/Plugins/com.blakgeek.cordova.plugin.amazonmobileads/AmazonAd.framework"; sourceTree = "<group>"; };
+		BFD0EB21501C4BFC896232DC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AdSupport.framework"; path = "System/Library/Frameworks/AdSupport.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		DB3C89B85244447CACB1DFBA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		2D2539E634F64A29ACD8B11A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		CC48F6C02DA949C580C84D09 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		FF2D7AE428E142DA9B789239 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MediaPlayer.framework"; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		BD80346222FB4DD1B430054B /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "EventKit.framework"; path = "System/Library/Frameworks/EventKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		DF2A895F187D4AC48454E344 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "EventKitUI.framework"; path = "System/Library/Frameworks/EventKitUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		6235AE5E7DA44BB3A61D8241 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "StoreKit.framework"; path = "System/Library/Frameworks/StoreKit.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,15 +136,15 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
-				DA7210EFFF2D490895B8C14E /* AmazonAd.framework in Frameworks */,
-				9F3A7ADF428F4DA9A72CDBD4 /* AdSupport.framework in Frameworks */,
-				D86783AC188248B0AFD7966D /* CoreLocation.framework in Frameworks */,
-				F0E0AB3EC2394771B768FEC6 /* SystemConfiguration.framework in Frameworks */,
-				64DCB8109F2F4284B98029BA /* CoreTelephony.framework in Frameworks */,
-				4327DB674BB146AA92BA43E0 /* MediaPlayer.framework in Frameworks */,
-				1BD95CC9793F47BFAB15259E /* EventKit.framework in Frameworks */,
-				75043FEE80E64362807DDF78 /* EventKitUI.framework in Frameworks */,
-				F641FA7FEEFB457388BD5021 /* StoreKit.framework in Frameworks */,
+				0D0EDD4FAA2C4236A69F9463 /* AmazonAd.framework in Frameworks */,
+				C323B27B17954F19B35DF208 /* AdSupport.framework in Frameworks */,
+				B5BDF0F34D6A4E2CA7D2B8A8 /* CoreLocation.framework in Frameworks */,
+				4551F20CB6DC4BF894703988 /* SystemConfiguration.framework in Frameworks */,
+				48AF6CF4C095437885F19B26 /* CoreTelephony.framework in Frameworks */,
+				3838091467EF4332AF9ADAA0 /* MediaPlayer.framework in Frameworks */,
+				DAEE06B87FE147619381AD80 /* EventKit.framework in Frameworks */,
+				2FA7B5E53F7F42A0809B0CB1 /* EventKitUI.framework in Frameworks */,
+				66D05F3241D8425498E7E85A /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +217,15 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				1A79CA0DE1044416AA5FBD9D /* AmazonAd.framework */,
-				BE6DAD6F6E1845BE897C3A2B /* AdSupport.framework */,
-				6EED894F442E486892AAEFB8 /* CoreLocation.framework */,
-				14F5D4AD6F6344B0B11AC33D /* SystemConfiguration.framework */,
-				B062A13337184F718E15E569 /* CoreTelephony.framework */,
-				518153E34BD740E9B3DBC3FC /* MediaPlayer.framework */,
-				B91D834D95C4443B9DBB8851 /* EventKit.framework */,
-				ACB01A6C214345F8BFB396FA /* EventKitUI.framework */,
-				6722184816BD4A5C918BD673 /* StoreKit.framework */,
+				4093FB95044B492C96AA9C01 /* AmazonAd.framework */,
+				BFD0EB21501C4BFC896232DC /* AdSupport.framework */,
+				DB3C89B85244447CACB1DFBA /* CoreLocation.framework */,
+				2D2539E634F64A29ACD8B11A /* SystemConfiguration.framework */,
+				CC48F6C02DA949C580C84D09 /* CoreTelephony.framework */,
+				FF2D7AE428E142DA9B789239 /* MediaPlayer.framework */,
+				BD80346222FB4DD1B430054B /* EventKit.framework */,
+				DF2A895F187D4AC48454E344 /* EventKitUI.framework */,
+				6235AE5E7DA44BB3A61D8241 /* StoreKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -241,8 +241,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				622C0CEBA6FF4D2C9379A0EF /* AmazonMobileAdsPlugin.m */,
-				E00ABD3B155245D896D6AA67 /* AmazonMobileAdsPlugin.h */,
+				A719DAC9EEFB4FF5A9883620 /* AmazonMobileAdsPlugin.m */,
+				1347FBEC2BCB47868F6CAA86 /* AmazonMobileAdsPlugin.h */,
 			);
 			name = Plugins;
 			path = "AmazonMobileAdsDemo/Plugins";
@@ -427,7 +427,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				3AE903ACE6F54D0DAD2AE3F1 /* AmazonMobileAdsPlugin.m in Sources */,
+				866DC64E000B4D1A936B9994 /* AmazonMobileAdsPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +478,7 @@
 					"\"AmazonMobileAdsDemo/Plugins/com.blakgeek.cordova.plugin.amazonmobileads\"",
 					"\"AmazonMobileAdsDemo/Plugins/com.blakgeek.cordova.plugin.amazonmobileads\"",
 					"\"AmazonMobileAdsDemo/Plugins/com.blakgeek.cordova.plugin.amazonmobileads\"",
+					"\"AmazonMobileAdsDemo/Plugins/com.blakgeek.cordova.plugin.amazonmobileads\"",
 				);
 			};
 			name = Debug;
@@ -510,6 +511,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"AmazonMobileAdsDemo/Plugins/com.blakgeek.cordova.plugin.amazonmobileads\"",
 					"\"AmazonMobileAdsDemo/Plugins/com.blakgeek.cordova.plugin.amazonmobileads\"",
 					"\"AmazonMobileAdsDemo/Plugins/com.blakgeek.cordova.plugin.amazonmobileads\"",
 					"\"AmazonMobileAdsDemo/Plugins/com.blakgeek.cordova.plugin.amazonmobileads\"",

@@ -20,7 +20,7 @@ document.addEventListener('deviceready', function() {
                 ama.hideBannerAd();
                 break;
             case 'showInterstitial':
-                ama.showInterstitialAd()
+                ama.showInterstitialAd(conso);
                 break;
             case 'enableLogging':
                 ama.enableLogging();
